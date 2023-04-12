@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>مركز السلام</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/css.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=Open+Sans:wght@400;700&family=Oswald:wght@400;600;700&family=Roboto:wght@100;300;400&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-secondary sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">مركز-<span>السلام</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 flex-lg-row-reverse text-end ">
+              <div class="con mt-3 mp-3 ">
+                <button type="button" class="btn btn-primary ms-auto " data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">
+                  تسجل دخول
+                </button>
+    
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">تسجيل دخول</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body ">
+                        <div class="mb-3">
+                          <label for="formGroupExampleInput" class="form-label">اسم المستخدم</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="اسم المستخدم">
+                        </div>
+                        <div class="mb-3">
+                          <label for="formGroupExampleInput2" class="form-label">كلمة المرور</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="كلمة المرور">
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">إغلاق</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">تسجيل الدخول</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <li class="nav-item mt-1 ">
+                <a class="nav-link  " aria-current="page" href="index.html">الرئيسية</a>
+              </li>
+              <li class="nav-item mt-1">
+                <a class="nav-link" href="about.html">من نحن</a>
+              </li>
+              <li class="nav-item mt-1">
+                <a class="nav-link" href="active.html">الأنشطة</a>
+              </li>
+              <li class="nav-item mt-1">
+                <a class="nav-link" href="services.html">خدماتنا</a>
+              </li>
+              <li class="nav-item mt-1">
+                <a class="nav-link active" href="connect.html">تواصل معنا</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <nav aria-label="breadcrumb" class="bread">
+    <ol class="breadcrumb " >
+      <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="">تواصل معنا</a></li>
+    </ol>
+  </nav>
+<div class="contact">
+    <div class="container">
+          <div class="row">
+        <div class="col-lg-6">
+            <div class="card" dir="rtl">
+                <div class="card-header text-center fs-3 text-bg-primary">
+                تواصل معنا
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <form class="row g-3">
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label">الاسم</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="ادخل ا">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress2" class="form-label">البريد الإلكتروني</label>
+                          <input type="email" class="form-control" id="inputAddress2" placeholder="البريد الإلكتروني">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">رقم الهاتف</label>
+                            <input type="namber" class="form-control" id="inputAddress2" placeholder="رقم الهاتف">
+                          </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">الرسالة</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        <div class="col-6">
+                          <button type="submit" class="btn btn-outline-primary w-50" style="margin-right: 70% 
+                          ;">ارسال</button>
+                        </div>
+                      </form>
+                  </blockquote>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-6">
+            <img src="img/4.png" class="img-fluid" alt="">
+        </div>
+    </div>
+    </div>
+  
+</div>
+ 
+
+ 
+  <div class="footer bg-light mt-5 pt-2 pb-2">
+    <div class="container">
+      <div class="row align-items-center justify-content-between text-center">
+        <div class="col-lg-4 pt-5">
+          <h3 class=" text-center pt-4 ">مركز السلام</h3>
+          <p>أقبلت ، فأقبلت معك الحياة بجميع صنوفها وألوانها : فالنبات ينبت ، والأشجار تورق وتزهر ، والهرة تموء ،
+            والقمري يسجع ، والغنم يثغو ، والبقر يخور ، وكل أليف يدعو أليفه . كل شيء يشعر بالحياة وينسي هموم الحياة ، ولا
+            يذكر إلا سعادة الحياة ، فإن كان الزمان جسدا فأنت روحه ، وإن كان عمرا فأنت شبابه .
+          </p>
+          <div class="copyright pt-5">
+            Greed by <span class="fw-bold text-primary">Dyaa siam</span>
+            <div>&copy;2023 - <span class="text-primary">مركز السلام </span></div>
+          </div>
+
+        </div>
+        <div class="col-lg-2 pt-5">
+          <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="">الأنشطة</a></li>
+            <li><a href="">خدماتنا</a></li>
+            <li><a href="">تواصل معنا</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 pt-5">
+          <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="">الأنشطة</a></li>
+            <li><a href="">خدماتنا</a></li>
+            <li><a href="">تواصل معنا</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 pt-5">
+          <h3 class=" text-center pt-4 "> تواصل معنا</h3>
+          <div class="subcirib d-flex">
+            <input class="form-control" type="text" placeholder="اشترك الأن" aria-label="اشترك الأن">
+            <button class="btn btn-primary">subcicribe</button>
+          </div>
+          <div class="icon pt-6 ">
+            <a href=""><i class="fa-brands fa-facebook fa-3x" style="color: #135bd8;"></i></a>
+            <a href=""><i class="fa-brands fa-square-whatsapp fa-3x" style="color: #1fd134;"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin fa-3x" style="color: #0091ff;"></i></a>
+            <a href=""><i class="fa-brands fa-youtube fa-3x" style="color: #e01010;"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram fa-3x" style="color: #c10b7e;"></i></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/js.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

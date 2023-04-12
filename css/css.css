@@ -1,0 +1,120 @@
+body{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+
+:root{
+    --bg-color:#000;
+    --color:rgb(7, 50, 221);
+}
+.navbar{
+border-bottom:1px solid #eee;
+
+}
+.navbar .navbar-brand{
+    color: black;
+    font-size: 22px;
+    font-weight: 800;
+}
+.navbar .navbar-brand span{
+    color: var(--color);
+    font-size: 30px;
+}
+
+
+.navbar .navbar-toggler:focus{
+    border: none;
+    box-shadow: none;
+}
+.navbar .nav-item .nav-link{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.navbar .nav-item .nav-link.active,
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link:focus
+{
+  color: var(--color);
+    border-bottom: 3px solid var(--color);
+   
+    
+}
+.landing{
+    background-color: #eee;
+    border: 1px solid #eee;
+}
+.landing span {
+    color: var(--color);
+}
+.modal-backdrop.fade{
+    opacity: 0;
+    z-index: 1;
+}
+.landing .card-body{
+    background: none;
+    border: none;
+}
+.footer ul li{
+    list-style: none;
+    padding-top: 10px;
+   
+}
+.footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer ul li a:hover{
+    color: var(--color);
+}
+.footer .icon a{
+    margin-right: 10px;
+
+}
+.bread{
+    border-bottom: 1px solid #eee;
+    margin: 10px auto;
+}
+.bread .breadcrumb{
+    padding: 20px;
+    align-items: end;
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 100px;
+
+    
+}
+.bread .breadcrumb li a{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+.bread .breadcrumb li a:focus,
+.bread .breadcrumb li a:hover,
+.bread .breadcrumb li.active a{
+    color: var(--color);
+
+}
+.about .accordion-button{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+.offcanvas{
+   height: 500px;
+}
+.offcanvas.hiding, .offcanvas.show, .offcanvas.showing {
+    height: 70vh;
+}
+.carousel .carousel-inner .carousel-item{
+    margin-left: 15%;
+}
